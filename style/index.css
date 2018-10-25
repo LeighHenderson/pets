@@ -1,6 +1,6 @@
 body {
   background-color: #043363;
-  background-image: url(https://raw.githubusercontent.com/LeighHenderson/pets/master/assets/pixel_starrysky_sparse.gif);
+  background-image: url(/assets/pixel_starrysky_sparse.gif);
   background-size: 64px;
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 100%; /* Sets default for all browsers */
@@ -39,7 +39,7 @@ li {
   padding-left: 5%; 
 }
 li::before {
-  content: url(https://raw.githubusercontent.com/LeighHenderson/pets/master/assets/pixel_cat2.gif); /* Insert content that looks like bullets */
+  content: url(/assets/pixel_cat2.gif); /* Insert content that looks like bullets */
   padding-right: 16px;
 }
 
