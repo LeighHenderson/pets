@@ -18,7 +18,6 @@ description: Pet projects
 
 baseurl: "/pets" # the subpath of your site, e.g. /blog
 url: "https://LeighHenderson.github.io"
-# url: "http://localhost:4000" # Use this for development with  "jekyll serve"
 
 repository: LeighHenderson/pets
 github_username: LeighHenderson
