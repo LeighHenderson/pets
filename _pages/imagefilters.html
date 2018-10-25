@@ -1,0 +1,47 @@
+---
+title: "Image Filters"
+permalink: /imagefilters/
+---
+
+<head>
+  <title>Image Filters</title>
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style/imagefilters.css">
+
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+  </script>
+
+  <script src="{{ site.baseurl }}/javascript/imagefilters.js"></script>
+</head>
+
+<body>
+
+  <h1> Image Filters </h1>
+
+  <div id="canvasDiv">
+    <canvas id="originalCanvas"></canvas>
+    <canvas id="filterCanvas"></canvas>
+  </div>
+
+
+  <div id="buttonsDiv">
+  <!--
+    <input type="button" value="Dinos" onclick="loadDinosImage()">
+  -->
+    
+    <input type="file" multiple="false" accept="image/*" value="Load Image" id="finput" onchange="loadImage()">
+  </div>
+  
+  <div id="buttonsDiv">
+    <input type="button" value="Grayscale" onclick="filter( 'grayscale' )">
+  
+    <input type="button" value="RGB Striped" onclick="filter('rgbStriped')">
+  
+    <input type="button" value="Blur" onclick="filter('blur')">
+  </div>
+  
+  <div id="buttonsDiv">
+    <input type="button" value="Reset" onclick="reset()">
+  </div>
+  
+</body>

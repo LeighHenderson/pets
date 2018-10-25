@@ -1,0 +1,49 @@
+---
+title: "Site setup"
+permalink: /site-setup/
+---
+
+<a href="https://jekyllrb.com/docs/">Jekyll Quickstart Guide</a>
+
+1. Create a new Jekyll site at ./pet
+jekyll new pet
+
+2. Change into the new directory
+cd pet
+
+3. Build the site and make it available on a local server
+bundle exec jekyll serve
+
+4. Now browse to http://localhost: 4000
+
+____
+
+1. Edit the _config.yml file
+
+2. Add to _config.yml
+plugins:
+    - jekyll-sitemap
+
+
+3. Install jekyll-sitemap gem
+gem install jekyll-sitemap
+
+4. Make a ne file named _config_dev.yml. It should contain only:
+baseurl: ""
+url: "http://localhost:4000"
+
+The website can now be served locally (at https://localhost4000) with
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+______
+
+<a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/">Github Pages setup guide</a>
+
+1. Edit the Gemfile. Follow it's instructions to use Github Pages
+
+2. Install gems
+bundle update
+
+_____
+
+1. Make new folders: style and javascript
