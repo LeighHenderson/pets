@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+
+  <!-- not sure what this does, look into later -->
+  <link rel="canonical" href="{{ site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="Pets" href="{{ site.url }}/feed.xml">
+
+  {% include analytics.html %}
+</head>
+
+<body>
+
+<main>
+    {{ content }}
+</main>
+
+{% include footer.html %}
+
+</body>

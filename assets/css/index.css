@@ -1,0 +1,54 @@
+body {
+  background-color: #043363;
+  background-image: url(/assets/images/pixel_starrysky_sparse.gif);
+  background-size: 64px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 100%; /* Sets default for all browsers */
+}
+
+#header {
+  background-color: #5444F9;
+  font-size: 4em;
+  text-align: left;
+  margin: 20px 2% 30px 2%;
+  padding: 20px;
+}
+
+#sub-header {
+  background-color: #5444F9;
+  font-size: 1em;
+  text-align: left;
+  margin: 0px 2% 30px 2%;
+  padding: 20px;
+}
+
+#project-list {
+  background-color: #043363;
+  margin: 0px 2% 30px 2%;
+  padding: 10px;
+}
+
+ul {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+  color: white;
+}
+li {
+  padding-left: 5%; 
+}
+li::before {
+  content: url(/assets/images/pixel_cat2.gif); /* Insert content that looks like bullets */
+  padding-right: 16px;
+}
+
+
+/*
+Color palette
+Navy: #043363
+Medium slate blue (periwinkle): #5444F9
+Burly wood (tan): #E0B09C
+Light sea green: #21D071
+Red: #F30E1A
+*/
